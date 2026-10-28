@@ -1,0 +1,858 @@
+<!doctype html>
+<html lang="en-IN"><head>
+<meta charset="UTF-8">
+<meta http-equiv="Content-Security-Policy" content="default-src 'none'; script-src https://cdnjs.cloudflare.com/ajax/libs/three.js/0.160.0/three.min.js 'sha256-B5EQKwgzcpAkp6EgsJIEYpwBhPnPZjjL3wAnvINNBoQ=' 'sha256-bjqRCsS6bb0GdrfdLYvnIuOHUfX/c6RP8gp9rQYwia8='; style-src 'self' 'unsafe-inline' https://fonts.googleapis.com; font-src https://fonts.gstatic.com; img-src 'self' data:; connect-src 'self'; form-action 'self'; base-uri 'none'; object-src 'none'; upgrade-insecure-requests">
+<meta name="referrer" content="strict-origin-when-cross-origin">
+<meta name="robots" content="index,follow,max-snippet:-1,max-image-preview:large">
+<link rel="canonical" href="https://novacrafttech.com/">
+<meta property="og:type" content="website">
+<meta property="og:site_name" content="Novacraft Technologies">
+<meta property="og:title" content="DPDP Compliance Services | Novacraft Technologies">
+<meta property="og:description" content="DPDP Act compliance for banks and financial institutions: consent, retention, data-principal rights and audit evidence, aligned to RBI, NABARD and CERT-In.">
+<meta property="og:url" content="https://novacrafttech.com/">
+<meta property="og:image" content="https://novacrafttech.com/logo.png">
+<meta property="og:locale" content="en_IN">
+<meta name="twitter:card" content="summary">
+<meta name="twitter:title" content="DPDP Compliance Services | Novacraft Technologies">
+<meta name="twitter:description" content="DPDP Act compliance for banks and financial institutions: consent, retention, data-principal rights and audit evidence, aligned to RBI, NABARD and CERT-In.">
+<script type="application/ld+json">
+{
+ "@context": "https://schema.org",
+ "@graph": [
+  {
+   "@type": "ProfessionalService",
+   "@id": "https://novacrafttech.com/#org",
+   "name": "Novacraft Technologies",
+   "url": "https://novacrafttech.com/",
+   "logo": "https://novacrafttech.com/logo.png",
+   "image": "https://novacrafttech.com/logo.png",
+   "email": "info@novacrafttech.com",
+   "description": "IT consulting, cyber security, cloud, data center, DPDP and RBI compliance, managed services and hardware maintenance for banks and financial institutions.",
+   "address": {
+    "@type": "PostalAddress",
+    "streetAddress": "91 Springboard Business Hub Pvt Ltd",
+    "addressLocality": "Bengaluru",
+    "addressRegion": "Karnataka",
+    "postalCode": "560048",
+    "addressCountry": "IN"
+   },
+   "areaServed": {
+    "@type": "Country",
+    "name": "India"
+   },
+   "knowsAbout": [
+    "DPDP Act 2023 compliance",
+    "RBI Cyber Security Framework",
+    "NABARD C-SITE",
+    "CERT-In guidelines",
+    "Cyber security",
+    "Cloud services",
+    "Managed IT services"
+   ]
+  },
+  {
+   "@type": "WebSite",
+   "@id": "https://novacrafttech.com/#website",
+   "url": "https://novacrafttech.com/",
+   "name": "Novacraft Technologies",
+   "publisher": {
+    "@id": "https://novacrafttech.com/#org"
+   },
+   "inLanguage": "en-IN"
+  },
+  {
+   "@type": "WebPage",
+   "@id": "https://novacrafttech.com/#webpage",
+   "url": "https://novacrafttech.com/",
+   "name": "DPDP Compliance Services | Novacraft Technologies",
+   "description": "DPDP Act compliance for banks and financial institutions: consent, retention, data-principal rights and audit evidence, aligned to RBI, NABARD and CERT-In.",
+   "isPartOf": {
+    "@id": "https://novacrafttech.com/#website"
+   },
+   "about": {
+    "@id": "https://novacrafttech.com/#org"
+   },
+   "inLanguage": "en-IN"
+  },
+  {
+   "@type": "FAQPage",
+   "@id": "https://novacrafttech.com/#dpdp-faq",
+   "mainEntity": [
+    {
+     "@type": "Question",
+     "name": "What is the DPDP Act, 2023, and what are the DPDP Rules, 2025?",
+     "acceptedAnswer": {
+      "@type": "Answer",
+      "text": "The Digital Personal Data Protection Act, 2023 is India’s law on processing digital personal data. It sets duties for organisations (Data Fiduciaries) and gives individuals (Data Principals) rights over their data. The DPDP Rules, 2025, which make the Act operational, were notified on 13 November 2025."
+     }
+    },
+    {
+     "@type": "Question",
+     "name": "When do DPDP compliance obligations start?",
+     "acceptedAnswer": {
+      "@type": "Answer",
+      "text": "Implementation is phased. Some provisions took effect on notification in November 2025, the consent-manager provisions follow in November 2026, and the core compliance framework, including notice, consent, security safeguards, breach reporting and cross-border transfer rules, is scheduled for 13 May 2027. Timelines can change, so we confirm the current position at the start of every engagement."
+     }
+    },
+    {
+     "@type": "Question",
+     "name": "Does the DPDP Act apply to banks and co-operative banks?",
+     "acceptedAnswer": {
+      "@type": "Answer",
+      "text": "The Act applies to organisations that process digital personal data in India, and banks and co-operative banks are not exempt as a class. It sits alongside sector rules such as RBI cyber security guidance, NABARD / C-SITE requirements and CERT-In directions, so the practical task is mapping which obligations apply to your data and systems and closing the gaps."
+     }
+    },
+    {
+     "@type": "Question",
+     "name": "What does DPDP compliance involve in practice?",
+     "acceptedAnswer": {
+      "@type": "Answer",
+      "text": "Typically a data inventory across core banking, cloud and branch systems; privacy notices and consent flows; retention schedules; a workflow for data-principal rights and grievances; security safeguards and breach-response readiness; vendor and processor contract reviews; staff training; and an evidence pack you can show examiners."
+     }
+    },
+    {
+     "@type": "Question",
+     "name": "What are the penalties for non-compliance with the DPDP Act?",
+     "acceptedAnswer": {
+      "@type": "Answer",
+      "text": "Penalties are set by the Data Protection Board of India according to the nature and gravity of the breach and can reach up to ₹250 crore for the most serious failures, such as not maintaining reasonable security safeguards to prevent a personal data breach."
+     }
+    },
+    {
+     "@type": "Question",
+     "name": "How does Novacraft Technologies help with DPDP compliance?",
+     "acceptedAnswer": {
+      "@type": "Answer",
+      "text": "We run DPDP implementation together with RBI, NABARD / C-SITE and CERT-In compliance, from gap assessment and consent and notice design to retention, rights and grievance workflows, an audit calendar and an examiner-ready evidence pack."
+     }
+    }
+   ]
+  }
+ ]
+}
+</script>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>DPDP Compliance Services | Novacraft Technologies</title>
+<meta name="description" content="DPDP Act compliance for banks and financial institutions: consent, retention, data-principal rights and audit evidence, aligned to RBI, NABARD and CERT-In.">
+<link rel="icon" type="image/png" href="logo.png">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin="">
+<link rel="preconnect" href="https://cdnjs.cloudflare.com" crossorigin="">
+<link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@500;600;700&amp;family=Inter:wght@400;500;600&amp;display=swap" rel="stylesheet">
+<script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/0.160.0/three.min.js" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+<script>try{var __t=null;try{__t=localStorage.getItem('novacraft-theme-v2')}catch(_){}if(__t!=='light')__t='dark';document.documentElement.style.colorScheme=__t;if(__t==='light')document.documentElement.dataset.theme='light'}catch(_){}</script>
+<style>
+/* OD-LAYOUT-PRIMITIVES v1 — structure only */
+@layer od-layout {
+  :where(.od-stack,.od-row,.od-row-top,.od-cluster,.od-grid,.od-field,.od-stat,.od-cell,.od-tile) > :where(*) { min-width: 0; }
+  .od-stack { display:flex; flex-direction:column; gap:var(--od-gap,8px); }
+  .od-row { display:flex; align-items:center; gap:var(--od-gap,8px); }
+  .od-row-top { display:flex; align-items:flex-start; gap:var(--od-gap,8px); }
+  .od-cluster { display:flex; flex-wrap:wrap; align-items:center; gap:var(--od-gap,8px); }
+  .od-fill { flex:1 1 0; min-width:0; }
+  .od-fixed { flex:none; }
+  .od-grid { display:grid; gap:var(--od-gap,12px); grid-template-columns:repeat(var(--od-cols,3),minmax(0,1fr)); }
+  .od-stat,.od-field,.od-cell { display:grid; gap:var(--od-gap,2px); }
+  :where(.od-stat,.od-field,.od-cell) > :where(*) { display:block; }
+  .od-tile { display:grid; grid-template-rows:auto 1fr; }
+  :where(.od-tile) > :where(*) { display:block; }
+  .od-media { display:block; width:100%; height:auto; aspect-ratio:var(--od-ratio,auto); }
+  .od-media-cover { object-fit:cover; }
+  .od-truncate { display:block; max-width:100%; overflow:hidden; white-space:nowrap; text-overflow:ellipsis; }
+  .od-clamp-2,.od-clamp-3 { display:-webkit-box; -webkit-box-orient:vertical; overflow:hidden; overflow-wrap:anywhere; }
+  .od-clamp-2 { -webkit-line-clamp:2; } .od-clamp-3 { -webkit-line-clamp:3; }
+  .od-nowrap { white-space:nowrap; }
+  .od-keep { word-break:keep-all; overflow-wrap:anywhere; }
+  .od-screen { display:grid; grid-template-rows:auto minmax(0,1fr) auto; height:100%; }
+  .od-scroll { overflow-y:auto; overscroll-behavior:contain; min-height:0; }
+  .od-rail { display:flex; gap:var(--od-gap,8px); overflow-x:auto; scroll-snap-type:x proximity; scrollbar-width:none; padding-inline:var(--od-rail-pad,16px); scroll-padding-inline:var(--od-rail-pad,16px); }
+  .od-rail::-webkit-scrollbar { display:none; }
+  :where(.od-rail) > :where(*) { flex:none; scroll-snap-align:start; }
+  :where(.od-rail) > :where(:last-child) { margin-inline-end:var(--od-rail-pad,16px); }
+  .od-spacer { flex:none; visibility:hidden; pointer-events:none; }
+  .od-touch { min-width:44px; min-height:44px; }
+}
+/* /OD-LAYOUT-PRIMITIVES v1 */
+/* BRAND TOKENS — derived from logo.png (measured: cyan #4BCDE3 mark + white glyphs) */
+:root{
+  --bg:#0A0F14; --bg2:#0D141B; --surface:#121A23; --surface2:#18232E;
+  --ink:#F2F6F9; --muted:#A3B1BF; --faint:#7A8A99;
+  --accent:#4BCDE3; --accent-tint:#7BD9EA; --accent-deep:#1B8CA8; --accent-ink:#04222B;
+  --accent-soft:rgba(75,205,227,.10); --accent-line:rgba(75,205,227,.34);
+  --line:rgba(120,160,180,.18);
+  /* Hero 3D stage — seamless near-black field, luminous mint core band */
+  --stage-glow:rgba(127,232,200,.26); --stage-shadow:rgba(0,0,0,.32);
+  --stage-rim:#7FE8C8; --stage-subject:#E4F7F0;
+  --radius:10px; --radius-media:12px; --radius-panel:16px; --max:1200px;
+  --ease-spring:cubic-bezier(.22,1.4,.36,1);
+  --ease-out:cubic-bezier(.16,.84,.3,1);
+}
+/* LIGHT THEME — authored independently; the brand cyan is darkened for use as text */
+[data-theme="light"]{
+  --bg:#F5F8FA; --bg2:#EAF0F4; --surface:#FFFFFF; --surface2:#E3EBF0;
+  --ink:#0B1620; --muted:#3F5462; --faint:#5A6E7D;
+  --accent:#0E7490; --accent-tint:#0A6C86; --accent-deep:#0B5F79; --accent-ink:#FFFFFF;
+  --accent-soft:rgba(14,116,144,.09); --accent-line:rgba(14,116,144,.34);
+  --line:rgba(11,60,78,.18);
+  --stage-glow:rgba(16,150,120,.16); --stage-shadow:rgba(12,74,62,.16);
+  --stage-rim:#0F9E7C; --stage-subject:#F2FBF8;
+}
+.band{background:rgba(13,20,27,.86);border-top:1px solid var(--line);border-bottom:1px solid var(--line)}
+.band-top{background:rgba(13,20,27,.86);border-top:1px solid var(--line)}
+.theme-toggle{flex:none;width:44px;height:44px;margin:0 auto 0 0;border-radius:50%;border:1px solid var(--line);background:rgba(120,160,180,.07);color:var(--ink);font-size:19px;line-height:1;cursor:pointer;transition:transform .25s var(--ease-spring),border-color .25s}
+@media(hover:hover){.theme-toggle:hover{transform:translateY(-2px) rotate(12deg);border-color:var(--accent-line)}}
+[data-theme="light"] .nav{background:transparent}
+[data-theme="light"] .hero{background:radial-gradient(1100px 520px at 84% -6%,rgba(14,116,144,.10),transparent 62%),linear-gradient(180deg,rgba(255,255,255,.72),transparent 46%)}
+[data-theme="light"] #gl{opacity:.3}
+[data-theme="light"] .hero h1{text-shadow:none}
+[data-theme="light"] .band,[data-theme="light"] .band-top{background:rgba(234,240,244,.88)}
+[data-theme="light"] .strip{background:rgba(234,240,244,.92)}
+[data-theme="light"] footer{background:rgba(234,240,244,.94)}
+[data-theme="light"] .card,[data-theme="light"] .panel,[data-theme="light"] .info-card,[data-theme="light"] form{background:linear-gradient(160deg,rgba(255,255,255,.72),rgba(227,235,240,.55));border-color:rgba(11,60,78,.2);box-shadow:inset 0 1px 0 rgba(255,255,255,.9),0 18px 44px rgba(11,60,78,.12)}
+
+[data-theme="light"] input,[data-theme="light"] textarea{background:#fff;border-color:rgba(11,60,78,.22)}
+[data-theme="light"] .sla div{background:rgba(255,255,255,.7)}
+[data-theme="light"] .checklist li{background:rgba(11,60,78,.05)}
+[data-theme="light"] .err{color:#B4232F}
+[data-theme="light"] .okmsg{background:rgba(14,116,144,.08);border-color:rgba(14,116,144,.4);color:#0A5A70}
+[data-theme="light"] .tag{color:#fff}
+[data-theme="light"] .btn-primary{color:#fff}
+[data-theme="light"] .brand-logo{filter:invert(1) hue-rotate(180deg) drop-shadow(0 2px 10px rgba(14,116,144,.22))}
+*{box-sizing:border-box}
+html{scroll-behavior:smooth}
+body{margin:0;background:var(--bg);color:var(--ink);font-family:Inter,system-ui,sans-serif;font-size:16.5px;line-height:1.62;-webkit-font-smoothing:antialiased;overflow-x:hidden;perspective:1600px}
+h1,h2,h3{font-family:"Space Grotesk",Inter,sans-serif;line-height:1.08;letter-spacing:-.02em;margin:0}
+a{color:inherit}
+.wrap{max-width:var(--max);margin:0 auto;padding:0 24px}
+::selection{background:rgba(75,205,227,.32)}
+:focus-visible{outline:2px solid var(--accent);outline-offset:3px;border-radius:6px}
+/* GLOBAL 3D STAGE */
+#gl{position:fixed;inset:0;width:100%;height:100%;z-index:0;pointer-events:none;opacity:.6}
+#glow{position:fixed;left:0;top:0;width:520px;height:520px;margin:-260px 0 0 -260px;border-radius:50%;z-index:0;pointer-events:none;background:radial-gradient(circle,rgba(75,205,227,.075),rgba(123,217,234,.04) 45%,transparent 70%);transform:translate3d(-800px,-800px,0)}
+main{position:relative;z-index:1}
+footer{position:relative;z-index:1}
+/* NAV */
+.nav{position:fixed;inset:0 0 auto 0;z-index:50;background:transparent;border-bottom:1px solid transparent;transition:background .3s,box-shadow .3s}
+.nav.scrolled{background:transparent;box-shadow:none}
+#progress{position:absolute;left:0;bottom:-1px;height:2px;width:100%;transform-origin:0 50%;transform:scaleX(0);background:linear-gradient(90deg,var(--accent),var(--accent-tint))}
+.nav-inner{max-width:var(--max);margin:0 auto;padding:14px 24px;display:flex;align-items:center;gap:20px}
+.brand{display:flex;align-items:center;gap:12px;text-decoration:none}
+.brand-logo{display:block;height:58px;width:auto;flex:none;background:transparent;filter:drop-shadow(0 2px 18px rgba(75,205,227,.55)) brightness(1.12);transition:transform .3s var(--ease-spring)}
+@media(hover:hover){.brand:hover .brand-logo{transform:rotate(-4deg) scale(1.05)}}
+.links{display:flex;gap:8px;margin-left:auto;margin-right:12px}
+.links a{text-decoration:none;color:var(--muted);font-size:16.5px;font-weight:500;padding:10px 16px;border-radius:8px;transition:color .2s,background .2s,transform .2s var(--ease-spring)}
+@media(hover:hover){.links a:hover{color:var(--ink);background:rgba(120,160,180,.12);transform:translateY(-1px)}}
+.btn{display:inline-flex;align-items:center;gap:10px;text-decoration:none;font-weight:600;font-size:15px;padding:13px 22px;border-radius:10px;border:1px solid transparent;cursor:pointer;transition:transform .2s var(--ease-out),box-shadow .2s,background .2s,border-color .2s;will-change:transform}
+.btn-primary{background:var(--accent);color:var(--accent-ink)}
+@media(hover:hover){.btn-primary:hover{box-shadow:0 10px 28px rgba(75,205,227,.3);transform:translateY(-1px)}}
+.btn-ghost{border-color:var(--line);color:var(--ink);background:rgba(120,160,180,.07)}
+@media(hover:hover){.btn-ghost:hover{border-color:var(--accent-line);background:rgba(120,160,180,.12)}}
+.nav-cta{margin-left:8px;padding:11px 18px;font-size:14px}
+.burger{display:none;margin-left:auto;background:none;border:1px solid var(--line);border-radius:10px;color:var(--ink);padding:10px 12px;font-size:18px}
+/* HERO — centered poster composition (matches reference: rings upper-middle, copy centre, proof row low) */
+.hero{position:relative;padding:168px 0 72px;overflow:hidden;text-align:center;background:radial-gradient(1100px 620px at 50% 0%,rgba(127,232,200,.10),transparent 62%),linear-gradient(180deg,#070B0E 0%,#0A0F14 58%,#070B0E 100%);min-height:92vh;display:flex;align-items:center}
+.hero-stack{position:relative;z-index:2;max-width:980px;margin:0 auto;display:flex;flex-direction:column;align-items:center;width:100%}
+.hero-copy{max-width:900px;margin:0 auto;display:flex;flex-direction:column;align-items:center}
+[data-depth]{will-change:transform}
+.eyebrow{display:inline-flex;align-items:center;justify-content:center;gap:12px;margin:0 auto;font-size:12.5px;font-weight:600;letter-spacing:.22em;text-transform:uppercase;color:var(--accent);padding:0}
+.eyebrow::before{content:"";width:30px;height:2px;flex:none;border-radius:2px;background:var(--accent)}
+.hero h1{font-size:clamp(44px,6.4vw,88px);line-height:1.02;margin:26px auto 22px;letter-spacing:-.02em;text-shadow:0 2px 30px rgba(0,0,0,.6);max-width:16ch;text-wrap:balance}
+.hero h1 .line{display:block}
+.hero h1 .line span{display:block;opacity:0;transform:translateY(14px);animation:settle .52s var(--ease-out) forwards}
+.hero h1 .line:nth-child(2) span{animation-delay:.08s}
+.hero h1 .line:nth-child(3) span{animation-delay:.16s;color:var(--accent)}
+@keyframes settle{to{opacity:1;transform:none}}
+.lede{color:var(--muted);font-size:18px;max-width:58ch;line-height:1.66;margin:0 auto;text-wrap:pretty}
+.hero-ctas{display:flex;gap:12px;flex-wrap:wrap;margin-top:32px;justify-content:center}
+.hero-proof{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:0 28px;margin:48px auto 0;padding-top:26px;border-top:1px solid var(--line);max-width:720px;width:100%;text-align:center}
+.hero-proof .od-stat{--od-gap:5px;align-items:center;text-align:center}
+.hero-proof>:not(:first-child){padding-left:28px;border-left:1px solid var(--line)}
+.hp-num{font-family:"Space Grotesk";font-size:32px;font-weight:700;line-height:1.12;letter-spacing:-.01em}
+.hp-cap{color:var(--muted);font-size:13.5px;line-height:1.45;text-wrap:balance}
+.hero-fig{margin:0;position:relative}
+.hero-fig img{display:block;width:100%;height:auto;border-radius:8px;background:var(--surface2)}
+.hero-fig figcaption{padding:14px 6px 4px;font-size:13px;color:var(--muted)}
+/* Hero 3D stage — frameless, merged with background, rings sit upper-middle */
+.hero-stage{position:absolute;inset:0;z-index:1;width:100%;height:100%;aspect-ratio:auto;background:transparent;overflow:hidden;pointer-events:none}
+.hero-stage::before{content:"";position:absolute;inset:0;pointer-events:none;background:radial-gradient(52% 38% at 50% 30%,var(--stage-glow) 0%,transparent 72%)}
+#hero3d{display:block;width:100%;height:100%}
+.hero-stage::after{content:"";position:absolute;left:20%;right:20%;top:44%;height:12%;border-radius:50%;background:radial-gradient(50% 50% at 50% 50%,var(--stage-shadow) 0%,transparent 72%);pointer-events:none}
+.hero-fallback{position:absolute;inset:0;display:none;place-items:center;padding:24px;text-align:center}
+.hero-fallback span{font:600 11.5px/1.5 'Space Grotesk',Inter,system-ui,sans-serif;letter-spacing:.2em;text-transform:uppercase;color:var(--muted);opacity:.75}
+.hero-stage.no-webgl #hero3d{display:none}
+.hero-stage.no-webgl .hero-fallback{display:grid}
+.trow{display:flex;gap:10px;align-items:center;margin-top:14px;transform:translateZ(18px)}
+.trow .dot{width:44px;height:44px;flex:none;border-radius:12px;display:grid;place-items:center;background:var(--accent-soft);border:1px solid var(--accent-line);font-size:20px}
+.trow b{display:block;font-size:15px} .trow small{display:block;color:var(--muted);font-size:13px}
+/* 3D TILT */
+.grid3{perspective:1400px}
+.tilt{transform-style:preserve-3d;will-change:transform}
+.tilt .ic,.tilt .tag{transform:translateZ(28px)}
+.tilt h3{transform:translateZ(16px)}
+.tilt::after{content:"";position:absolute;inset:0;border-radius:inherit;pointer-events:none;opacity:0;transition:opacity .3s;background:radial-gradient(420px circle at var(--mx,50%) var(--my,50%),rgba(75,205,227,.13),transparent 65%)}
+.tilt.tilting::after{opacity:1}
+/* GLASS CARDS (per user request; departs from the default no-glass styling) */
+.card,.panel,.info-card,form{
+  background:linear-gradient(160deg,rgba(26,36,46,.55),rgba(13,20,27,.45));
+  backdrop-filter:blur(18px) saturate(1.35);
+  -webkit-backdrop-filter:blur(18px) saturate(1.35);
+  border:1px solid rgba(120,160,180,.24);
+  box-shadow:inset 0 1px 0 rgba(255,255,255,.09),0 24px 60px rgba(0,0,0,.38);
+}
+/* MARQUEE */
+.strip{border-top:1px solid var(--line);border-bottom:1px solid var(--line);background:rgba(13,20,27,.88);overflow:hidden;padding:13px 0;color:var(--muted);font-size:13.5px;letter-spacing:.08em;text-transform:uppercase}
+.marquee{display:flex;gap:44px;white-space:nowrap;width:max-content;animation:scroll 26s linear infinite}
+@keyframes scroll{to{transform:translateX(-50%)}}
+.marquee b{color:var(--accent);font-weight:600}
+/* SECTIONS */
+section{padding:88px 0;position:relative;content-visibility:auto;contain-intrinsic-size:auto 900px}
+.sec-glow{position:absolute;left:50%;top:0;width:min(720px,80%);height:1px;transform:translateX(-50%);background:linear-gradient(90deg,transparent,rgba(75,205,227,.55),transparent)}
+.kicker{color:var(--accent);font-size:13px;letter-spacing:.2em;text-transform:uppercase;font-weight:600}
+.sec-title{font-size:clamp(28px,3vw,40px);margin:12px 0 14px;max-width:22ch}
+.sec-sub{color:var(--muted);max-width:72ch;font-size:17px}
+.grid3{display:grid;grid-template-columns:repeat(3,1fr);gap:20px;margin-top:36px}
+.grid3.g4{grid-template-columns:repeat(2,minmax(0,1fr))}
+.card{background:rgba(18,26,35,.9);border:1px solid var(--line);border-radius:var(--radius);padding:26px;position:relative;transition:border-color .3s,box-shadow .3s}
+@media(hover:hover){.card:hover{border-color:var(--accent-line)}}
+.card .ic{width:48px;height:48px;border-radius:12px;display:grid;place-items:center;background:rgba(75,205,227,.09);border:1px solid rgba(75,205,227,.28);margin-bottom:16px}
+.card h3{font-size:19px;margin-bottom:8px}
+.card p{color:var(--muted);font-size:15px;margin:0}
+.card ul{margin:14px 0 0;padding:0;list-style:none;display:grid;gap:8px}
+.card ul li{color:var(--muted);font-size:14px;padding-left:22px;position:relative}
+.card ul li::before{content:"✓";position:absolute;left:0;color:var(--accent);font-weight:700}
+.tag{display:inline-block;font-size:11.5px;letter-spacing:.12em;text-transform:uppercase;color:var(--accent-ink);background:var(--accent);border-radius:6px;padding:4px 10px;font-weight:700;margin-bottom:12px}
+/* SPLIT */
+.split{display:grid;grid-template-columns:1fr 1fr;gap:48px;align-items:center;margin-top:36px}
+.checklist{list-style:none;margin:22px 0 0;padding:0;display:grid;gap:12px}
+.checklist li{display:flex;gap:12px;align-items:flex-start;background:rgba(120,160,180,.05);border:1px solid var(--line);border-radius:12px;padding:13px 15px;font-size:15px;transition:transform .3s var(--ease-out),border-color .3s}
+@media(hover:hover){.checklist li:hover{transform:translateX(6px);border-color:var(--accent-line)}}
+.checklist li span{flex:none;width:26px;height:26px;border-radius:50%;background:rgba(75,205,227,.12);border:1px solid rgba(75,205,227,.4);color:var(--accent);display:grid;place-items:center;font-size:14px;font-weight:700}
+.panel{background:linear-gradient(180deg,rgba(20,29,38,.94),rgba(13,20,27,.94));border:1px solid var(--line);border-radius:var(--radius-panel);padding:30px;position:relative}
+.sla{display:grid;grid-template-columns:1fr 1fr;gap:14px;margin-top:18px}
+.sla div{background:rgba(6,10,14,.5);border:1px solid var(--line);border-radius:12px;padding:14px 16px;transform:translateZ(22px)}
+.sla b{font-family:"Space Grotesk";font-size:22px;display:block}
+.sla small{display:block;color:var(--muted);font-size:13px}
+/* FORMS */
+.contact-grid{display:grid;grid-template-columns:.9fr 1.1fr;gap:28px;margin-top:36px}
+.info-card{background:rgba(18,26,35,.9);border:1px solid var(--line);border-radius:var(--radius);padding:26px;position:relative}
+.info-row{display:flex;gap:14px;padding:14px 0;border-top:1px solid var(--line)}
+.info-row:first-of-type{border-top:0}
+.info-row b{display:block;font-size:15px} .info-row small,.info-row a{color:var(--muted);font-size:14.5px;text-decoration:none}
+form{background:rgba(18,26,35,.9);border:1px solid var(--line);border-radius:var(--radius);padding:28px;display:grid;gap:16px}
+label{font-size:13.5px;font-weight:600;display:grid;gap:8px}
+label span.req{color:var(--accent)}
+input,textarea{background:#0A1219;border:1px solid var(--line);border-radius:10px;color:var(--ink);padding:13px 15px;font-size:15px;font-family:inherit;width:100%}
+input:focus,textarea:focus{outline:none;border-color:var(--accent)}
+textarea{min-height:130px;resize:vertical}
+.f2{display:grid;grid-template-columns:1fr 1fr;gap:16px}
+.err{font-size:13px;color:#FDA4AF;display:none}
+.okmsg{display:none;background:rgba(75,205,227,.1);border:1px solid rgba(75,205,227,.42);color:#BEE9F2;border-radius:12px;padding:14px 16px;font-size:14.5px}
+/* FOOTER */
+footer{border-top:1px solid var(--line);background:rgba(8,12,17,.92);padding:56px 0 28px}
+.fgrid{display:grid;grid-template-columns:1.3fr 1fr 1fr;gap:28px}
+.fgrid p,.fgrid a{color:var(--muted);font-size:14.5px}
+.fgrid a{text-decoration:none;display:block;padding:5px 0}
+@media(hover:hover){.fgrid a:hover{color:var(--accent)}}
+.fgrid h4{font-size:13px;letter-spacing:.16em;text-transform:uppercase;color:var(--ink);margin:0 0 12px}
+.copy{margin-top:36px;padding-top:20px;border-top:1px solid var(--line);display:flex;justify-content:space-between;gap:12px;flex-wrap:wrap;color:var(--faint);font-size:13px}
+/* REVEAL with depth */
+.rv{opacity:0;transform:translateY(34px) translateZ(-60px);transition:opacity .7s var(--ease-out),transform .8s var(--ease-spring)}
+.rv.in{opacity:1;transform:none}
+.to-top{position:fixed;right:22px;bottom:22px;z-index:40;width:48px;height:48px;border-radius:50%;border:1px solid var(--accent-line);background:rgba(18,26,35,.92);color:var(--accent);font-size:20px;cursor:pointer;display:none;transition:transform .2s var(--ease-out)}
+@media(hover:hover){.to-top:hover{transform:translateY(-3px) scale(1.06)}}
+@media (prefers-reduced-motion:reduce){
+  *,*::before,*::after{animation:none!important;transition:none!important;scroll-behavior:auto!important}
+  .rv{opacity:1;transform:none}
+  .hero h1 .line span{opacity:1;transform:none}
+  #gl,#glow{display:none}
+}
+@media(max-width:1024px){.split,.contact-grid{grid-template-columns:1fr}.hero-stack{gap:0}.grid3{grid-template-columns:1fr 1fr}.links a{padding:10px 10px;font-size:15px}.nav-cta{display:none}}
+@media(max-width:720px){.links{display:none;position:absolute;top:66px;left:12px;right:12px;background:#0E1620;border:1px solid var(--line);border-radius:14px;padding:10px;flex-direction:column}.links.open{display:flex}.burger{display:block}.nav-cta{display:none}.theme-toggle{margin:0 0 0 auto}.burger{margin-left:8px}.grid3,.f2,.fgrid,.sla{grid-template-columns:1fr}.grid3.g4{grid-template-columns:1fr}section{padding:64px 0}.hero{padding:132px 0 56px;min-height:0}.hero-proof{grid-template-columns:1fr;gap:18px;max-width:420px;text-align:center}.hero-proof>:not(:first-child){padding-left:0;border-left:0;border-top:1px solid var(--line);padding-top:18px}#glow{display:none}}
+@media(max-width:768px){section{padding:72px 0}.hero{padding-top:140px}.split{gap:32px}.fgrid{grid-template-columns:1fr 1fr}.card,.panel,.info-card,form{backdrop-filter:none;-webkit-backdrop-filter:none}}
+@media(max-width:480px){.hero h1{font-size:clamp(36px,11vw,48px)}.hero-ctas{flex-direction:column;align-items:stretch;max-width:340px;width:100%}.hero-ctas .btn{justify-content:center;min-height:48px}.brand-logo{height:46px}}
+img,video,canvas{max-width:100%}
+.faq{display:grid;gap:12px;margin-top:32px;max-width:860px}
+.faq details{background:var(--surface);border:1px solid var(--line);border-radius:var(--radius)}
+.faq summary{cursor:pointer;list-style:none;padding:18px 22px;font-weight:600;font-size:17px;display:flex;justify-content:space-between;align-items:center;gap:16px}
+.faq summary::-webkit-details-marker{display:none}
+.faq summary::after{content:"+";color:var(--accent);font-size:22px;line-height:1;flex:none}
+.faq details[open] summary::after{content:"\2013"}
+.faq .ans{padding:0 22px 20px;color:var(--muted);font-size:15.5px}
+.faq .ans p{margin:0}
+.dpdp-note{color:var(--faint);font-size:13px;margin-top:18px;max-width:72ch}
+</style>
+</head>
+<body>
+<canvas id="gl" aria-hidden="true"></canvas>
+<div id="glow" aria-hidden="true"></div>
+<header class="nav" id="nav">
+  <div class="nav-inner">
+    <a class="brand" href="#top" aria-label="Novacraft home">
+      <img class="brand-logo" src="logo.png" width="1500" height="799" alt="Novacraft Technologies logo">
+    </a>
+    <nav class="links" id="links" aria-label="Primary">
+      <a href="#top" style="opacity: 1; font-size: 16px;">Home</a><a href="#about">About</a><a href="#services">Services</a><a href="#compliance">Compliance</a><a href="#dpdp">DPDP</a><a href="#contact">Contact</a>
+    </nav>
+    
+    <button class="theme-toggle" id="themeToggle" aria-label="Switch to light mode" aria-pressed="false" title="Toggle theme">☀</button>
+    <button class="burger" id="burger" aria-label="Open menu" aria-expanded="false">☰</button>
+  </div>
+  <span id="progress" aria-hidden="true"></span>
+</header>
+
+<main id="top">
+<!-- HERO -->
+<div class="hero" id="hero" data-od-id="hero-poster">
+  <div class="hero-stage no-webgl" id="heroStage" data-od-id="hero-stage">
+    <canvas id="hero3d" role="img" aria-label="Circle of glowing particles slowly rotating on a dark field, rendered in 3D"></canvas>
+    <div class="hero-fallback" aria-hidden="true"><span>WebGL unavailable</span></div>
+  </div>
+  <div class="wrap hero-stack">
+    <div class="hero-copy" data-od-id="hero-copy">
+      <p class="eyebrow" data-depth="14">New Age IT Solutions</p>
+      <h1 data-depth="26">
+        <span class="line"><span>Secure. Compliant.</span></span>
+        <span class="line"><span>Future-ready IT for</span></span>
+        <span class="line"><span>Modern Fintech.</span></span>
+      </h1>
+      <p class="lede" data-depth="18">We are a team specializing in IT Consulting, Cyber Security, Cloud Computing, Data Center Services, RBI Compliance and Managed IT Services — now with DPDP Compliance and Hardware Maintenance.</p>
+      <div class="hero-ctas" data-depth="12">
+        <a class="btn btn-primary" href="#services">Explore services</a>
+        <a class="btn btn-ghost" href="#contact">Book a consultation</a>
+      </div>
+      
+    </div>
+  </div>
+</div>
+
+<div class="strip" aria-hidden="true">
+  <div class="marquee" id="marquee">
+    <span><b>RBI Cyber Security</b> · compliant delivery</span><span><b>NABARD / C-SITE</b> · co-operative banks</span><span><b>CERT-In</b> · incident reporting</span><span><b>DPDP Act 2023</b> · privacy by design</span><span><b>Hardware Maintenance</b> · branches + DC</span>
+    <span><b>RBI Cyber Security</b> · compliant delivery</span><span><b>NABARD / C-SITE</b> · co-operative banks</span><span><b>CERT-In</b> · incident reporting</span><span><b>DPDP Act 2023</b> · privacy by design</span><span><b>Hardware Maintenance</b> · branches + DC</span>
+  </div>
+</div>
+
+<!-- ABOUT -->
+<section id="about">
+  <div class="sec-glow" aria-hidden="true"></div>
+  <div class="wrap">
+    <div class="kicker rv">About us</div>
+    <h2 class="sec-title rv" data-plx="0.04">We redefine innovation by delivering cutting-edge IT solutions</h2>
+    <div class="split">
+      <div class="rv">
+        <h3 style="font-size:22px;max-width:34ch">Empowering Businesses with Future-Ready IT Solutions for a Smarter Digital Tomorrow.</h3>
+        <p class="sec-sub" style="margin-top:14px">Specializing in consultation, cloud services, and managed services for the banking and financial sector. With a deep commitment to enhancing the security, resilience, and efficiency of financial institutions, we help financial institutions navigate complex regulatory environments and safeguard their digital infrastructures.</p>
+        <p class="sec-sub">Our services are built on a foundation of compliance with industry standards and guidelines, ensuring that our clients remain protected against evolving cyber threats while meeting stringent regulatory requirements.</p>
+        <ul class="checklist">
+          <li><span>✓</span><div><b>Compliance to RBI Cyber Security guidelines</b><br><small style="color:var(--muted)">IS audit, VAPT, SOC, board-level reporting.</small></div></li>
+          <li><span>✓</span><div><b>Compliance to NABARD / C-SITE Cyber Security guidelines</b><br><small style="color:var(--muted)">Purpose-built for co-operative banks and RCBs.</small></div></li>
+          <li><span>✓</span><div><b>Compliance to CERT-In Guidelines</b><br><small style="color:var(--muted)">Logging, synchronised time, 6-hour incident reporting.</small></div></li>
+          <li><span>✓</span><div><b>DPDP Act implementation</b><br><small style="color:var(--muted)">Consent management, retention schedules, data-principal rights and grievance redressal.</small></div></li>
+        </ul>
+      </div>
+      <div class="panel tilt rv">
+        <div class="od-row" style="--od-gap:10px"><span class="tag">Why Novacraft</span></div>
+        <h3 style="font-size:24px;margin:6px 0 10px">One partner for audit, cloud, security and hardware.</h3>
+        <p style="color:var(--muted);font-size:15px;margin:0">Banks usually juggle five vendors. We consolidate consulting, security operations, cloud / DC and on-ground maintenance — so findings actually get fixed, not just reported.</p>
+        <div class="sla">
+          <div><b>Audit → fix</b><small>Closed-loop remediation, evidence for examiners</small></div>
+          <div><b>HQ + branch</b><small>DC, CBS room, branches &amp; BC points covered</small></div>
+          <div><b>DPDP Compliance</b><small>Consent, retention &amp; rights workflows</small></div>
+          <div><b>On-call maintenance</b><small> spares, standby &amp; preventive visits</small></div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- SERVICES -->
+<section id="services" class="band">
+  <div class="sec-glow" aria-hidden="true"></div>
+  <div class="wrap">
+    <div class="kicker rv">Services</div>
+    <h2 class="sec-title rv" data-plx="0.04">Eight practices, one accountable team</h2>
+    <p class="sec-sub rv">Every engagement starts from your compliance baseline and ends with measurable uptime, closed findings and trained staff.</p>
+    <div class="grid3">
+      <article class="card tilt rv"><div class="ic">🛡</div><h3>Cyber Security</h3><p>Cybersecurity involves protecting computer systems, networks, and data from digital attacks, theft, and damage. It encompasses practices, technologies, and policies aimed at defending against unauthorized access and cyber threats.</p><ul><li>VAPT, EDR, SOC monitoring</li><li>RBI / C-SITE audit support</li></ul></article>
+      <article class="card tilt rv"><div class="ic">☁</div><h3>Cloud Services</h3><p>Cloud services provide on-demand access to computing resources like storage, processing power, and software over the internet. These services offer flexibility, scalability, and cost-efficiency for businesses and individuals.</p><ul><li>Migration &amp; hybrid design</li><li>Backup, DR &amp; cost control</li></ul></article>
+      <article class="card tilt rv"><div class="ic">⚙</div><h3>Managed Services</h3><p>Managed services involve outsourcing IT tasks and responsibilities to a third-party provider to ensure efficient operation and proactive support. This includes services like network management, security, and software updates, freeing up internal resources.</p><ul><li>NOC + helpdesk + patching</li><li>SLA-backed uptime</li></ul></article>
+      <article class="card tilt rv"><div class="ic">▦</div><h3>Data Center Services</h3><p>Data center services provide infrastructure, storage, and networking solutions for businesses to securely host their data and applications. These services ensure reliability, scalability, and security while maintaining high uptime and performance.</p><ul><li>CBS room &amp; DC hardening</li><li>Power, cooling &amp; access</li></ul></article>
+      <article class="card tilt rv"><div class="ic">◐</div><h3>Consulting Services</h3><p>Consulting services offer expert advice and guidance to businesses in various industries, helping them solve problems and improve operations. These services can cover areas such as strategy, management, technology, and process optimization.</p><ul><li>IT roadmap &amp; RFP support</li><li>Board &amp; examiner reporting</li></ul></article>
+      <article class="card tilt rv"><div class="ic">✎</div><h3>Training</h3><p>We offer RBI compliance and cybersecurity training to help organizations meet regulatory standards and strengthen their data protection practices. Our training equips teams with the knowledge to manage risks, comply with regulations, and safeguard against cyber threats.</p><ul><li>Board, staff &amp; branch training</li><li>Phishing drills &amp; certs</li></ul></article>
+      <article class="card tilt rv"><span class="tag">New</span><div class="ic">✔</div><h3>DPDP Compliance</h3><p>End-to-end compliance with the DPDP Act 2023 plus RBI, NABARD / C-SITE and CERT-In obligations — from data mapping to examiner-ready evidence.</p><ul><li>RoPA, consent &amp; notice design</li><li>Retention, rights &amp; grievance workflow</li><li>Audit calendar &amp; evidence pack</li></ul></article>
+      <article class="card tilt rv"><span class="tag">New</span><div class="ic">⎙</div><h3>Hardware Maintenance</h3><p>On-ground maintenance of servers, storage, network, desktops, printers, passbook printers, scanners, UPS and branch links.</p><ul><li>Preventive visits + standby spares</li><li>Breakdown, IMAC &amp; asset tagging</li><li>Branch, HO &amp; DC coverage</li></ul></article>
+    </div>
+  </div>
+</section>
+
+<!-- COMPLIANCE -->
+<section id="compliance">
+  <div class="sec-glow" aria-hidden="true"></div>
+  <div class="wrap">
+    <div class="kicker rv">Compliance, concretely</div>
+    <h2 class="sec-title rv" data-plx="0.04">Examiner-ready, all year — not just audit season</h2>
+    <div class="grid3 g4">
+      <article class="card tilt rv"><div class="ic">◈</div><h3>RBI Cyber Security Framework</h3><p>Gap assessment, IS audit remediation, VAPT closures, SOC use-cases and board reporting aligned to RBI circulars.</p></article>
+      <article class="card tilt rv"><div class="ic">⬢</div><h3>NABARD / C-SITE</h3><p>Controls, CBS hardening, access reviews and cyber hygiene evidence formatted for NABARD inspections.</p></article>
+      <article class="card tilt rv"><div class="ic">✦</div><h3>CERT-In Guidelines</h3><p>6-hour incident reporting workflows, log retention, NTP synchronisation and forensic evidence packs formatted for CERT-In submissions.</p></article>
+      <article class="card tilt rv"><div class="ic">⬡</div><h3>DPDP Act, 2023</h3><p>Consent management, retention schedules, data-principal rights and grievance redressal — privacy by design across CBS, cloud and branch systems.</p></article>
+    </div>
+  </div>
+</section>
+
+<!-- DPDP -->
+<section id="dpdp">
+  <div class="sec-glow" aria-hidden="true"></div>
+  <div class="wrap">
+    <div class="kicker rv">DPDP Act compliance</div>
+    <h2 class="sec-title rv" data-plx="0.04">DPDP compliance services for banks and financial institutions</h2>
+    <p class="sec-sub rv">India’s Digital Personal Data Protection Act, 2023 and the DPDP Rules, 2025 change how banks, co-operative banks and fintechs collect, use, retain and protect personal data. Novacraft Technologies helps you move from gap assessment to examiner-ready evidence, alongside your RBI, NABARD / C-SITE and CERT-In obligations.</p>
+    <div class="faq rv">
+        <details><summary>What is the DPDP Act, 2023, and what are the DPDP Rules, 2025?</summary><div class="ans"><p>The Digital Personal Data Protection Act, 2023 is India’s law on processing digital personal data. It sets duties for organisations (Data Fiduciaries) and gives individuals (Data Principals) rights over their data. The DPDP Rules, 2025, which make the Act operational, were notified on 13 November 2025.</p></div></details>
+        <details><summary>When do DPDP compliance obligations start?</summary><div class="ans"><p>Implementation is phased. Some provisions took effect on notification in November 2025, the consent-manager provisions follow in November 2026, and the core compliance framework, including notice, consent, security safeguards, breach reporting and cross-border transfer rules, is scheduled for 13 May 2027. Timelines can change, so we confirm the current position at the start of every engagement.</p></div></details>
+        <details><summary>Does the DPDP Act apply to banks and co-operative banks?</summary><div class="ans"><p>The Act applies to organisations that process digital personal data in India, and banks and co-operative banks are not exempt as a class. It sits alongside sector rules such as RBI cyber security guidance, NABARD / C-SITE requirements and CERT-In directions, so the practical task is mapping which obligations apply to your data and systems and closing the gaps.</p></div></details>
+        <details><summary>What does DPDP compliance involve in practice?</summary><div class="ans"><p>Typically a data inventory across core banking, cloud and branch systems; privacy notices and consent flows; retention schedules; a workflow for data-principal rights and grievances; security safeguards and breach-response readiness; vendor and processor contract reviews; staff training; and an evidence pack you can show examiners.</p></div></details>
+        <details><summary>What are the penalties for non-compliance with the DPDP Act?</summary><div class="ans"><p>Penalties are set by the Data Protection Board of India according to the nature and gravity of the breach and can reach up to ₹250 crore for the most serious failures, such as not maintaining reasonable security safeguards to prevent a personal data breach.</p></div></details>
+        <details><summary>How does Novacraft Technologies help with DPDP compliance?</summary><div class="ans"><p>We run DPDP implementation together with RBI, NABARD / C-SITE and CERT-In compliance, from gap assessment and consent and notice design to retention, rights and grievance workflows, an audit calendar and an examiner-ready evidence pack. </p></div></details>
+    </div>
+    <p class="dpdp-note rv">This section is general information, not legal advice. Dates and requirements are drawn from the DPDP Act, 2023 and the DPDP Rules, 2025 as notified, and are confirmed with you at the start of an engagement.</p>
+    <div class="rv" style="margin-top:28px"><a class="btn btn-primary" href="#contact">Book a DPDP readiness consultation</a></div>
+  </div>
+</section>
+
+<!-- CONTACT -->
+<section id="contact" class="band-top">
+  <div class="sec-glow" aria-hidden="true"></div>
+  <div class="wrap">
+    <div class="kicker rv">Contact</div>
+    <h2 class="sec-title rv" data-plx="0.04">Ready to transform your business with our IT solutions? Contact us today.</h2>
+    <div class="contact-grid">
+      <div class="info-card tilt rv">
+        <div class="info-row"><div class="dot" style="width:44px;height:44px;flex:none;border-radius:12px;display:grid;place-items:center;background:var(--accent-soft);border:1px solid var(--accent-line)">◎</div><div><b>Address</b><small>Bengaluru, Karnataka, India<br>91 Springboard Business Hub Pvt Ltd, Bangalore – 560048, Karnataka</small></div></div>
+        <div class="info-row"><div class="dot" style="width:44px;height:44px;flex:none;border-radius:12px;display:grid;place-items:center;background:var(--accent-soft);border:1px solid var(--accent-line)">✉</div><div><b>Email Us</b><br><a href="mailto:info@novacrafttech.com">info@novacrafttech.com</a></div></div>
+        <div class="info-row"><div class="dot" style="width:44px;height:44px;flex:none;border-radius:12px;display:grid;place-items:center;background:var(--accent-soft);border:1px solid var(--accent-line)">◷</div><div><b>Response time</b><small>One business day for AMC &amp; audit enquiries.</small></div></div>
+      </div>
+      <form id="cform" class="rv" novalidate="">
+        <div class="f2">
+          <label>Your Name <input name="name" type="text" maxlength="100" autocomplete="name" placeholder="e.g. Priya Nair"><span class="err" data-err="name">Please enter your name.</span></label>
+          <label>Your Email <input name="email" type="email" maxlength="254" autocomplete="email" placeholder="you@bank.com"><span class="err" data-err="email">Enter a valid email address.</span></label>
+        </div>
+        <label>Subject <input name="subject" type="text" maxlength="150" placeholder="e.g. Hardware AMC for 12 branches"><span class="err" data-err="subject">Please add a subject.</span></label>
+        <label>Message <textarea name="message" maxlength="5000" placeholder="Tell us about your branches, audit due date, or devices under AMC…"></textarea><span class="err" data-err="message">Please write at least 10 characters.</span></label>
+        <div class="okmsg" id="okmsg" role="status">Your message has been sent. Thank you! We will reply within one business day.</div>
+        <div><button class="btn btn-primary" type="submit">Send Message</button></div>
+      </form>
+    </div>
+  </div>
+</section>
+</main>
+
+<footer>
+  <div class="wrap">
+    <div class="fgrid">
+      <div>
+        <a class="brand" href="#top" style="margin-bottom:12px"><img class="brand-logo" src="logo.png" width="1500" height="799" alt="Novacraft Technologies logo"></a>
+        <p>91 Springboard Business Hub Pvt Ltd<br>Bangalore – 560048, Karnataka<br><a href="mailto:info@novacrafttech.com" style="padding:0">Email: info@novacrafttech.com</a></p>
+      </div>
+      <div><h4>Useful Links</h4><a href="#top">Home</a><a href="#about">About us</a><a href="#services">Services</a><a href="#compliance">Compliance</a></div>
+      <div><h4>Other Services</h4><a href="#services">Web Design</a><a href="#services">Web Development</a><a href="#services">Hardware Maintenance</a><a href="#dpdp">DPDP Compliance</a></div>
+    </div>
+    <div class="copy"><span>© Copyright <b style="color:var(--ink)">Novacraft</b> All Rights Reserved</span><a href="#top" style="color:var(--faint);text-decoration:none">Back to top ↑</a></div>
+  </div>
+</footer>
+<button class="to-top" id="toTop" aria-label="Back to top">↑</button>
+
+<script>
+(function(){
+  "use strict";
+  var reduced = matchMedia('(prefers-reduced-motion: reduce)').matches;
+  var finePointer = matchMedia('(pointer: fine)').matches;
+  var smallScreen = Math.min(screen.width, screen.height) < 500;
+  /* Nav, menu, progress, to-top */
+  var nav = document.getElementById('nav'), prog = document.getElementById('progress');
+  var burger = document.getElementById('burger'), links = document.getElementById('links');
+  burger.addEventListener('click', function(){ var o = links.classList.toggle('open'); burger.setAttribute('aria-expanded', o); });
+  links.addEventListener('click', function(e){ if(e.target.tagName === 'A') links.classList.remove('open'); });
+  /* Theme toggle: same layout, same 3D scenes, same imagery */
+  var root = document.documentElement, themeBtn = document.getElementById('themeToggle');
+  function setTheme(mode){
+    if(mode === 'light'){ root.dataset.theme = 'light'; } else { root.removeAttribute('data-theme'); }
+    var light = mode === 'light';
+    root.style.colorScheme = light ? 'light' : 'dark';
+    themeBtn.textContent = light ? '☾' : '☀';
+    themeBtn.setAttribute('aria-label', light ? 'Switch to dark mode' : 'Switch to light mode');
+    themeBtn.setAttribute('aria-pressed', String(light));
+    try{ localStorage.setItem('novacraft-theme-v2', mode); }catch(_){}
+  }
+  setTheme(root.dataset.theme === 'light' ? 'light' : 'dark');
+  themeBtn.addEventListener('click', function(){ setTheme(root.dataset.theme === 'light' ? 'dark' : 'light'); });
+  var tt = document.getElementById('toTop');
+  tt.addEventListener('click', function(){ scrollTo({top:0, behavior: reduced ? 'auto' : 'smooth'}); });
+  /* Reveal */
+  var io = new IntersectionObserver(function(es){ es.forEach(function(e){ if(e.isIntersecting){ e.target.classList.add('in'); io.unobserve(e.target); } }); }, {threshold:.12});
+  document.querySelectorAll('.rv').forEach(function(el){ io.observe(el); });
+  /* Counters */
+  var cio = new IntersectionObserver(function(es){ es.forEach(function(e){
+    if(!e.isIntersecting) return; var el = e.target, end = parseInt(el.dataset.count,10), t0 = null;
+    if(reduced){ el.textContent = end; cio.unobserve(el); return; }
+    (function f(t){ if(!t0) t0 = t; var p = Math.min((t-t0)/1100,1); el.textContent = Math.round(end*(1-Math.pow(1-p,3))); if(p<1) requestAnimationFrame(f); })(performance.now());
+    cio.unobserve(el);
+  }); }, {threshold:.5});
+  document.querySelectorAll('[data-count]').forEach(function(el){ cio.observe(el); });
+  /* Form */
+  var f = document.getElementById('cform');
+  f.addEventListener('submit', function(ev){
+    ev.preventDefault(); var ok = true;
+    function check(n, valid){ var er = f.querySelector('[data-err="'+n+'"]'); er.style.display = valid ? 'none' : 'block'; if(!valid) ok = false; }
+    var v = {name:f.name.value.trim(), email:f.email.value.trim(), subject:f.subject.value.trim(), message:f.message.value.trim()};
+    check('name', v.name.length > 1); check('email', /^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(v.email)); check('subject', v.subject.length > 2); check('message', v.message.length >= 10);
+    if(!ok) return;
+    var btn = f.querySelector('button[type=submit]'); btn.textContent = 'Sending…'; btn.disabled = true;
+    setTimeout(function(){ document.getElementById('okmsg').style.display = 'block'; btn.textContent = 'Send Message'; btn.disabled = false; f.reset(); }, 700);
+  });
+  /* Pointer state (shared) */
+  var px = 0, py = 0, tx = 0, ty = 0;   /* lerped + targets, -0.5..0.5 */
+  var gx = -800, gy = -800;             /* cursor glow position */
+  if(finePointer && !reduced){
+    addEventListener('pointermove', function(e){
+      tx = e.clientX / innerWidth - .5; ty = e.clientY / innerHeight - .5;
+      gx = e.clientX; gy = e.clientY;
+    }, {passive:true});
+  }
+  addEventListener('scroll', function(){
+    var h = document.documentElement, max = h.scrollHeight - innerHeight;
+    var p = max > 0 ? (scrollY / max) : 0;
+    prog.style.transform = 'scaleX(' + p + ')';
+    nav.classList.toggle('scrolled', scrollY > 24);
+    tt.style.display = scrollY > 700 ? 'block' : 'none';
+  }, {passive:true});
+  /* 3D tilt cards (fine pointers only) */
+  var tiltEls = Array.prototype.slice.call(document.querySelectorAll('.tilt'));
+  if(finePointer && !reduced){
+    tiltEls.forEach(function(el){
+      var raf = null;
+      el.addEventListener('pointermove', function(e){
+        var r = el.getBoundingClientRect();
+        var x = (e.clientX - r.left) / r.width, y = (e.clientY - r.top) / r.height;
+        if(raf) cancelAnimationFrame(raf);
+        raf = requestAnimationFrame(function(){
+          el.classList.add('tilting');
+          el.style.transform = 'perspective(900px) rotateX(' + ((0.5 - y) * 8).toFixed(2) + 'deg) rotateY(' + ((x - 0.5) * 10).toFixed(2) + 'deg) translateZ(6px)';
+          el.style.setProperty('--mx', (x * 100).toFixed(1) + '%');
+          el.style.setProperty('--my', (y * 100).toFixed(1) + '%');
+        });
+      });
+      el.addEventListener('pointerleave', function(){
+        if(raf) cancelAnimationFrame(raf);
+        el.classList.remove('tilting');
+        el.style.transform = '';
+      });
+    });
+  }
+  /* Scroll parallax for [data-plx] + hero [data-depth] */
+  var plxEls = Array.prototype.slice.call(document.querySelectorAll('[data-plx]'));
+  var depthEls = (finePointer && !reduced) ? Array.prototype.slice.call(document.querySelectorAll('#hero [data-depth]')) : [];
+  var glow = document.getElementById('glow');
+  function paintMotion(){
+    px += (tx - px) * .06; py += (ty - py) * .06;
+    var i, el, r, off;
+    for(i = 0; i < depthEls.length; i++){
+      el = depthEls[i]; var d = parseFloat(el.dataset.depth) || 16;
+      el.style.transform = 'translate3d(' + (-px * d).toFixed(1) + 'px,' + (-py * d).toFixed(1) + 'px,0)';
+    }
+    for(i = 0; i < plxEls.length; i++){
+      el = plxEls[i]; r = el.getBoundingClientRect();
+      if(r.bottom < -100 || r.top > innerHeight + 100) continue;
+      off = (r.top + r.height / 2 - innerHeight / 2) * parseFloat(el.dataset.plx);
+      el.style.transform = 'translate3d(0,' + (-off).toFixed(1) + 'px,0)';
+    }
+    if(glow && !(matchMedia('(max-width:720px)').matches)) glow.style.transform = 'translate3d(' + gx + 'px,' + gy + 'px,0)';
+  }
+  /* Global Three.js field */
+  function sizeRenderer(renderer, cam, canvas, hFallback){
+    var w = canvas.clientWidth || canvas.parentElement.clientWidth, h = canvas.clientHeight || hFallback;
+    renderer.setSize(w, h, false); cam.aspect = w / h; cam.updateProjectionMatrix();
+  }
+  try{
+    if(typeof THREE !== 'undefined' && !reduced){
+      var dpr = Math.min(devicePixelRatio || 1, smallScreen ? 1 : 1.5);
+      /* Global drifting field */
+      var gl = document.getElementById('gl');
+      var r1 = new THREE.WebGLRenderer({canvas:gl, alpha:true, antialias:false, powerPreference:'low-power'});
+      r1.setPixelRatio(dpr);
+      var s1 = new THREE.Scene();
+      var c1 = new THREE.PerspectiveCamera(60, 1, .1, 100); c1.position.set(0, 0, 11);
+      var N = smallScreen ? 260 : 520, pos = new Float32Array(N * 3), seed = new Float32Array(N);
+      for(var i = 0; i < N; i++){ pos[i*3] = (Math.random()-.5)*30; pos[i*3+1] = (Math.random()-.5)*20; pos[i*3+2] = (Math.random()-.5)*14; seed[i] = Math.random()*Math.PI*2; }
+      var g1 = new THREE.BufferGeometry(); g1.setAttribute('position', new THREE.BufferAttribute(pos, 3));
+      var pts = new THREE.Points(g1, new THREE.PointsMaterial({color:0x4bcde3, size:.06, transparent:true, opacity:.5}));
+      s1.add(pts);
+      var N2 = smallScreen ? 120 : 260, pos2 = new Float32Array(N2 * 3);
+      for(var j = 0; j < N2; j++){ pos2[j*3] = (Math.random()-.5)*34; pos2[j*3+1] = (Math.random()-.5)*22; pos2[j*3+2] = -4 - Math.random()*8; }
+      var g2 = new THREE.BufferGeometry(); g2.setAttribute('position', new THREE.BufferAttribute(pos2, 3));
+      s1.add(new THREE.Points(g2, new THREE.PointsMaterial({color:0x7bd9ea, size:.09, transparent:true, opacity:.34})));
+      function sizeAll(){ sizeRenderer(r1, c1, gl, innerHeight); }
+      sizeAll(); addEventListener('resize', sizeAll);
+      var t0 = performance.now(), lastFrame = 0;
+      (function tick(){
+        requestAnimationFrame(tick);
+        if(document.hidden) return;
+        var nowMs = performance.now();
+        if(nowMs - lastFrame < 33) return;
+        lastFrame = nowMs;
+        var t = (nowMs - t0) / 1000;
+        paintMotion();
+        /* global drift + scroll dive */
+        pts.rotation.y = t * .02 + px * .35;
+        pts.position.y = Math.sin(t * .18) * .35 - scrollY * .0011;
+        c1.position.x += ((px * 1.8) - c1.position.x) * .04;
+        c1.position.y += ((-py * 1.1) - c1.position.y) * .04;
+        r1.render(s1, c1);
+      })();
+    } else if(!reduced){
+      /* No WebGL: still run DOM motion */
+      (function tick(){ requestAnimationFrame(tick); if(!document.hidden) paintMotion(); })();
+    }
+  /* Hero emblem scene removed with the hero rebuild; the global field remains. */
+  }catch(e){ /* static gradient fallback remains */ }
+
+  /* Hero 3D centerpiece — original inline geometry, reusing the single global THREE build
+     and the sizeRenderer helper above. Isolated in its own try/catch so a failure here
+     can never stop the global particle field. */
+  (function heroStage(){
+    var stage = document.getElementById('heroStage'), cv = document.getElementById('hero3d');
+    if(!stage || !cv || typeof THREE === 'undefined') return;
+
+    function cssv(n){ return getComputedStyle(root).getPropertyValue(n).trim(); }
+
+    try{
+      var rimCol = new THREE.Color(cssv('--stage-rim') || '#7FE8C8');
+      var subjectCol = new THREE.Color(cssv('--stage-subject') || '#E4F7F0');
+
+      var r2 = new THREE.WebGLRenderer({canvas: cv, alpha: true, antialias: false, powerPreference:'low-power'});
+      r2.setPixelRatio(Math.min(devicePixelRatio || 1, smallScreen ? 1 : 1.5));
+
+      var s2 = new THREE.Scene();
+      var c2 = new THREE.PerspectiveCamera(40, 1, .1, 100);
+      c2.position.set(0, 0, 7.4);
+
+      /* Particle-circle structure (matches reference: dotted ring band on near-black,
+         empty middle for headline). No solid geometry, no lights — points only. */
+      var grp = new THREE.Group();
+      grp.scale.setScalar(1.0);
+      grp.position.y = .35;
+      s2.add(grp);
+
+      function makeBand(count, radius, spread, zSpread){
+        var pos = new Float32Array(count * 3);
+        for(var i = 0; i < count; i++){
+          var a = Math.random() * Math.PI * 2;
+          var r = radius + (Math.random() + Math.random() + Math.random() - 1.5) * spread;
+          pos[i*3] = Math.cos(a) * r;
+          pos[i*3+1] = Math.sin(a) * r;
+          pos[i*3+2] = (Math.random() + Math.random() - 1) * zSpread;
+        }
+        var g = new THREE.BufferGeometry();
+        g.setAttribute('position', new THREE.BufferAttribute(pos, 3));
+        return g;
+      }
+      function makeDust(count, range){
+        var pos = new Float32Array(count * 3);
+        for(var i = 0; i < count; i++){
+          pos[i*3] = (Math.random() * 2 - 1) * range;
+          pos[i*3+1] = (Math.random() * 2 - 1) * range;
+          pos[i*3+2] = (Math.random() * 2 - 1) * range * .5;
+        }
+        var g = new THREE.BufferGeometry();
+        g.setAttribute('position', new THREE.BufferAttribute(pos, 3));
+        return g;
+      }
+      function makeDisc(count, radius, zSpread){
+        var pos = new Float32Array(count * 3);
+        for(var i = 0; i < count; i++){
+          var a = Math.random() * Math.PI * 2;
+          var r = Math.sqrt(Math.random()) * radius;
+          pos[i*3] = Math.cos(a) * r;
+          pos[i*3+1] = Math.sin(a) * r;
+          pos[i*3+2] = (Math.random() + Math.random() - 1) * zSpread;
+        }
+        var g = new THREE.BufferGeometry();
+        g.setAttribute('position', new THREE.BufferAttribute(pos, 3));
+        return g;
+      }
+
+      var bandMat = new THREE.PointsMaterial({color: rimCol.clone(), size: .024, sizeAttenuation: true, transparent: true, opacity: .9, depthWrite: false, blending: THREE.AdditiveBlending});
+      var band = new THREE.Points(makeBand(8500, 3.5, .55, .35), bandMat);
+      grp.add(band);
+      var band2Mat = new THREE.PointsMaterial({color: subjectCol.clone(), size: .016, sizeAttenuation: true, transparent: true, opacity: .45, depthWrite: false, blending: THREE.AdditiveBlending});
+      var band2 = new THREE.Points(makeBand(3600, 3.5, .9, .6), band2Mat);
+      grp.add(band2);
+      var centerMat = new THREE.PointsMaterial({color: subjectCol.clone(), size: .018, sizeAttenuation: true, transparent: true, opacity: .32, depthWrite: false, blending: THREE.AdditiveBlending});
+      var center = new THREE.Points(makeDisc(2800, 2.9, .5), centerMat);
+      grp.add(center);
+      var dustMat = new THREE.PointsMaterial({color: subjectCol.clone(), size: .014, sizeAttenuation: true, transparent: true, opacity: .3, depthWrite: false, blending: THREE.AdditiveBlending});
+      var dust = new THREE.Points(makeDust(900, 4.2), dustMat);
+      s2.add(dust);
+
+      /* Stage colours follow the theme. */
+      function applyTheme(){
+        var rim = new THREE.Color(cssv('--stage-rim') || '#7FE8C8');
+        var sub = new THREE.Color(cssv('--stage-subject') || '#E4F7F0');
+        bandMat.color.copy(rim);
+        band2Mat.color.copy(sub);
+        centerMat.color.copy(sub);
+        dustMat.color.copy(sub);
+      }
+      applyTheme();
+      if(window.MutationObserver){
+        new MutationObserver(applyTheme).observe(root, {attributes: true, attributeFilter: ['data-theme']});
+      }
+
+      function size(){ sizeRenderer(r2, c2, cv, 420); }
+      size();
+      if(window.ResizeObserver){ new ResizeObserver(size).observe(stage); }
+      else { addEventListener('resize', size); }
+
+      var visible = true;
+      if(window.IntersectionObserver){
+        new IntersectionObserver(function(en){ visible = en[0].isIntersecting; }, {threshold: .01}).observe(stage);
+      }
+
+      function step(dt){
+        band.rotation.z += .05 * dt;
+        band2.rotation.z -= .03 * dt;
+        center.rotation.z += .02 * dt;
+        dust.rotation.y += .01 * dt;
+        grp.rotation.y = Math.sin(performance.now() / 6000) * .08;
+      }
+
+      stage.classList.remove('no-webgl');
+
+      if(reduced){
+        /* Reduced motion: compose exactly one frame and never start a loop. */
+        step(0); r2.render(s2, c2);
+        return;
+      }
+
+      var last = performance.now();
+      (function frame(){
+        requestAnimationFrame(frame);
+        if(!visible || document.hidden) return;
+        var now = performance.now();
+        if(now - last < 33) return;
+        var dt = Math.min((now - last) / 1000, .06);
+        last = now;
+        step(dt);
+        grp.position.y = .35 + Math.sin(now / 1000 * 1.0472) * .05;
+        r2.render(s2, c2);
+      })();
+    }catch(err){
+      /* Keep no-webgl in place: the CSS gradient stage stays and stays legible. */
+      stage.classList.add('no-webgl');
+      if(window.console && console.warn) console.warn('Hero 3D stage unavailable:', err);
+    }
+  })();
+})();
+</script>
+
+</body></html>
